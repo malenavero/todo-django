@@ -1,0 +1,2 @@
+# Ignora el archivo settings porque ya esta seteado para local y/o dev segun corresponda
+settings.py
