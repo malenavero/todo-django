@@ -17,8 +17,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 
 a,
@@ -201,6 +200,7 @@ label {
     font-size: 21px;
     border-radius: 5px;
     cursor: pointer;
+    margin: 15px 0 15px 0 ;
 }
 
 #search-button {

@@ -2,17 +2,15 @@
 {% block content %}
 
 <div class="header-bar">
-    <a href="{% url 'tasks' %}">&#8592; Back</a>
+    <a href="{% url 'tasks' %}">&#8592; Atrás</a>
 </div>
 
 <div class="card-body">
     <form method="POST" action="">
         {% csrf_token %}
-        <p>Are you sure you want to delete this task? "{{task}}"</p>
-        <input class="button" type="submit" value="Delete">
+        <p>¿Estas segure de que querés borrar esta tarea? : "{{task}}"</p>
+        <P>Espero la hayas completado y no sea de vaguite.</P>
+        <input class="button" type="submit" value="Borrar PARA SIEMPRE">
     </form>
 </div>
-
-
-
 {% endblock content %}
